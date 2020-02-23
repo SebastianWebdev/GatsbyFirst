@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap&subset=latin-ext');
+
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    scroll-behavior: smooth;
+    color: #131313;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2.4rem;
+
+}
+
+h2 {
+    font-size: 1.8rem;
+
+}
+
+h3 {
+    font-size: 1.6;
+}
+
+li {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+a {
+    color: #149DA2;
+}
+
+.ficzer {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}

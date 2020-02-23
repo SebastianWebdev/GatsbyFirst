@@ -5,5 +5,18 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    tittle: 'Seba Koduje!',
+    author: 'Sebastian Gołębiowski'
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-remark`,
+  ]
 }

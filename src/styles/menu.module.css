@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    margin: 20px;
+}
+
+.item a {
+    color: #131313;
+}
